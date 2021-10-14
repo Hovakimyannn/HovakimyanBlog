@@ -17,12 +17,35 @@
                         <a class="nav-link" href="{{route('categories.single',['slug'=>'make-money'])}}">Make Money</a>
                     </li>
                 </ul>
-                <form class="form-inline" method="get" action="{{route('search')}}">
+                <form style="flex-wrap: nowrap;" class="form-inline" method="get" action="{{route('search')}}">
                     <input name="s" class="form-control mr-sm-2  @error('s') is-invalid @enderror" type="text" placeholder="How may I help?" required>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
+                <div class="login">
+                    <a href="http://hovakimyan.blog/login">
+                        LogIn
+                    </a>
+                    <a href="http://hovakimyan.blog/logout">
+                        LogOut
+                    </a>
+                    <a href="http://hovakimyan.blog/register">
+                        Register
+                    </a>
+                </div>
 
                 <style>
+                    .login{
+                        display: flex;
+                        flex-direction: row;
+                        margin: 5px;
+                    }
+                    .login>a{
+                        color:white;
+                        padding: 5px;
+                        margin:5px;
+                        background-color: #4b545c;
+                        border-radius: 20px;
+                    }
                     .market-header .form-inline .form-control.is-invalid{
                         border: 2px solid red;
                     }

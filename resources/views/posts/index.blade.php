@@ -3,7 +3,6 @@
 @section('title', 'Markedia - Marketing Blog Template :: Home')
 
 @section('header')
-
     <section id="cta" class="section">
         <div class="container">
             <div class="row">

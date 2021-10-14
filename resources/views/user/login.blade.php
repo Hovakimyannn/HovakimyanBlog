@@ -60,6 +60,7 @@
                     <!-- /.col -->
                     <div class="col-4 offset-8">
                         <button type="submit" class="btn btn-primary btn-block">Login</button>
+                        <a href="http://hovakimyan.blog/register" class="btn btn-primary btn-block">Register</a>
                     </div>
                     <!-- /.col -->
                 </div>
